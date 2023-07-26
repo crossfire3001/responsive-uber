@@ -2,6 +2,10 @@
   font-family: "Roboto", sans-serif;
 }
 
+header {
+  position: relative;
+}
+
 nav {
   height: 50px;
   background-color: #212121;
@@ -30,8 +34,11 @@ nav {
 }
 
 .subheader {
+  position: absolute;
+  width: 100%;
   height: 84px;
   background-color: rgba(0, 0, 0, 0.6);
+ /* position: fixed; */
 }
 
 .subheader .subheader_logo {
@@ -142,4 +149,22 @@ nav {
   line-height: 63px;
   text-transform: uppercase;
   border: none;
+}
+
+.advantages {
+  background-color: black;
+}
+
+.advantages .col-6 {
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.advantages .circle {
+position: relative;
+}
+
+.advantages .pay {
+  position: absolute;
 }
